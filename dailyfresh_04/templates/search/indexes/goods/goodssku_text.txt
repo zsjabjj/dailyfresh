@@ -1,0 +1,4 @@
+# 指定建立索引字段
+
+{{object.name}}
+{{object.title}}

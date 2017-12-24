@@ -1,0 +1,88 @@
+*** Starting uWSGI 2.0.15 (64bit) on [Sun Dec 24 16:11:16 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.38) on 07 December 2017 14:38:15
+os: Darwin-16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64
+nodename: MBP.local
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /Users/zhangjie/Desktop/dailyfresh_04
+writing pidfile to uwsgi2.pid
+detected binary path: /Users/zhangjie/.virtualenvs/py3_django/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /Users/zhangjie/Desktop/dailyfresh_04
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 192.168.33.78:8090 fd 3
+Python version: 3.5.2 (v3.5.2:4def2a2901a5, Jun 26 2016, 10:47:25)  [GCC 4.2.1 (Apple Inc. build 5666) (dot 3)]
+Set PythonHome to /Users/zhangjie/.virtualenvs/py3_django
+Python main interpreter initialized at 0x7fb989e00970
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415200 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fb989e00970 pid: 34449 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 34449)
+spawned uWSGI worker 1 (pid: 34452, cores: 2)
+spawned uWSGI worker 2 (pid: 34453, cores: 2)
+spawned uWSGI worker 3 (pid: 34454, cores: 2)
+spawned uWSGI worker 4 (pid: 34455, cores: 2)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+[pid: 34455|app: 0|req: 1/1] 192.168.243.1 () {50 vars in 983 bytes} [Sun Dec 24 16:13:59 2017] POST /users/login => generated 0 bytes in 780 msecs (HTTP/1.1 302) 7 headers in 422 bytes (2 switches on core 1)
+[pid: 34454|app: 0|req: 1/2] 192.168.243.1 () {42 vars in 832 bytes} [Sun Dec 24 16:15:14 2017] GET /detail/1 => generated 9765 bytes in 1068 msecs (HTTP/1.1 200) 4 headers in 224 bytes (2 switches on core 1)
+[pid: 34455|app: 0|req: 2/3] 192.168.243.1 () {42 vars in 835 bytes} [Sun Dec 24 16:16:19 2017] GET /detail/4 => generated 8045 bytes in 286 msecs (HTTP/1.1 200) 4 headers in 224 bytes (2 switches on core 0)
+[pid: 34455|app: 0|req: 3/4] 192.168.243.1 () {42 vars in 785 bytes} [Sun Dec 24 16:26:36 2017] GET /index => generated 16278 bytes in 330 msecs (HTTP/1.1 200) 3 headers in 102 bytes (2 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Sun Dec 24 17:26:53 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.38) on 07 December 2017 14:38:15
+os: Darwin-16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64
+nodename: MBP.local
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /Users/zhangjie/Desktop/dailyfresh_04
+writing pidfile to uwsgi2.pid
+detected binary path: /Users/zhangjie/.virtualenvs/py3_django/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /Users/zhangjie/Desktop/dailyfresh_04
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 192.168.33.78:8090 fd 3
+Python version: 3.5.2 (v3.5.2:4def2a2901a5, Jun 26 2016, 10:47:25)  [GCC 4.2.1 (Apple Inc. build 5666) (dot 3)]
+Set PythonHome to /Users/zhangjie/.virtualenvs/py3_django
+Python main interpreter initialized at 0x7fbf91e00410
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415200 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x7fbf91e00410 pid: 90332 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 90332)
+spawned uWSGI worker 1 (pid: 90614, cores: 2)
+spawned uWSGI worker 2 (pid: 90615, cores: 2)
+spawned uWSGI worker 3 (pid: 90616, cores: 2)
+spawned uWSGI worker 4 (pid: 90618, cores: 2)
+[pid: 90618|app: 0|req: 1/1] 192.168.243.1 () {50 vars in 983 bytes} [Sun Dec 24 17:27:55 2017] POST /users/login => generated 0 bytes in 14709 msecs (HTTP/1.1 302) 7 headers in 422 bytes (2 switches on core 0)
+[pid: 90618|app: 0|req: 2/2] 192.168.243.1 () {42 vars in 832 bytes} [Sun Dec 24 17:28:34 2017] GET /detail/1 => generated 9765 bytes in 424 msecs (HTTP/1.1 200) 4 headers in 224 bytes (2 switches on core 1)
+[pid: 90618|app: 0|req: 3/3] 192.168.243.1 () {48 vars in 939 bytes} [Sun Dec 24 18:10:23 2017] POST /cart/add => generated 83 bytes in 58 msecs (HTTP/1.1 200) 3 headers in 94 bytes (2 switches on core 0)
